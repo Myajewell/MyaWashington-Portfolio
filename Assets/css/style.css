@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  header { 
+    background-color: rgba(223, 168, 177, 0.916);
+    width:2000px;
+    height: 50px;
+     }
+
+
+  body {
+    min-height: 900px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-image: linear-gradient(rgb(238, 205, 222), rgba(206, 107, 122, 0.97));
+
+  }
+
+  nav {
+  width: 70%;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 500px;
+  display: flex;
+  justify-content: center;
+  color: aqua;
+  }
+  
+  nav, nav ul, nav ul li a {
+   height: 50px;
+   line-height: 50px;
+   color: rgb(9, 7, 1);
+  }
+
+  nav li {
+  float:left
+}
+
+nav ul li a {
+  display:block;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  text-align: center;
+  position:relative;
+  bottom: 50px;
+}
+ 
+   h1 {
+    color: white;
+    position: relative;
+    font-family:"josefin sans" ;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: .125em;
+   }
+
+  h2 {
+    position: relative;
+    font-family:"josefin sans" ;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: .125em;
+    color: white;
+  }
+
+  h3 {
+    display: flex;
+    justify-content: center;
+    font-family:"josefin sans" ;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: .125em;
+    color: white;
+
+  }
+  
+  h4, h5, h6 {
+    font-size: 100%;
+  }
+  
+  input, select, option, optgroup, textarea, button,
+  pre, code {
+    font-size: 100%;
+    font-family: inherit;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
