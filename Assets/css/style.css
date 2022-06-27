@@ -76,7 +76,7 @@ background-color: rgb(48, 65, 47);
     font-size: 60px;
     text-align: center;
     letter-spacing: .125em;
-    top: 50px;
+    top: 2px;
    }
 
   h2 {
@@ -86,7 +86,7 @@ background-color: rgb(48, 65, 47);
     text-align: center;
     letter-spacing: .125em;
     color: white;
-    top: 70px;
+    top: -20px;
   }
 
   .project {
