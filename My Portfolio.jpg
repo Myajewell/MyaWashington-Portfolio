@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://127.0.0.1:5501/index.html#contact -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" href="./My Portfolio_files/style.css">
+<title>My Portfolio</title>
+
+</head>
+
+<body>
+
+<header></header>
+<nav>
+<ul id="navbar">
+    <li><a href="http://127.0.0.1:5501/index.html#about-me">About Me</a></li>
+
+    <li><a href="http://127.0.0.1:5501/index.html#projects">Projects</a></li>
+
+    <li><a href="http://127.0.0.1:5501/index.html#resume">Resume</a></li>
+
+    <li><a href="http://127.0.0.1:5501/index.html#contact">Contact</a></li>
+</ul>
+</nav>
+
+<main>
+
+<section class="under-nav-content">
+<h1>Mya Washington</h1>
+<br>
+<h2>Web Developer</h2>
+</section>
+
+
+
+    <div class="post-card-content">
+      <h3 id="projects">Projects:</h3>
+      
+      <a href="http://127.0.0.1:5501/index.html#" target="_blank" class="project project tile">
+        <img class="project-img" src="./My Portfolio_files/sunset.jpg" id="image" alt="sunset" height="200px"><div class="project-title">project 1</div></a>
+
+      <a href="http://127.0.0.1:5501/index.html#" target="_blank" class="project project tile">
+        <img class="project-img" src="./My Portfolio_files/sunset.jpg" id="image" alt="sunset" height="200px"><div class="project-title">project 2</div></a>
+
+      <a href="http://127.0.0.1:5501/index.html#" target="_blank" class="project project tile">
+        <img class="project-img" src="./My Portfolio_files/sunset.jpg" id="image" alt="sunset" height="200px"><div class="project-title">project 3</div></a> 
+
+      <a href="http://127.0.0.1:5501/index.html#" target="_blank" class="project project tile">
+        <img class="project-img" src="./My Portfolio_files/sunset.jpg" id="image" alt="sunset" height="200px"><div class="project-title">project 4</div></a> 
+         
+        <a href="http://127.0.0.1:5501/index.html#" target="_blank" class="project project tile">
+          <img class="project-img" src="./My Portfolio_files/sunset.jpg" id="image" alt="sunset" height="200px"><div class="project-title">project 5</div></a>
+    </div>
+ 
+  <!-- about me side bar -->
+  <section class="side-bar">
+    <div class="side-bar-content">
+      <h4 id="about-me">About Me:</h4>
+      <br>
+              <p>ipsum dolor sit amet, consectetur adipiscing elit.
+                 Sed accumsan ac nibh eu laoreet. Suspendisse odio augue, dignissim vitae nulla sit amet, rutrum lobortis urna. </p>
+            </div>
+        </section><p></p>
+    
+
+
+<div id="contact">
+  <ul>
+    <li><a href="https://www.linkedin.com/in/mya-washington-4a9b07179/" target="_blank">Linkedin Resume </a></li>
+
+    <li><a href="https://github.com/Myajewell" target="_blank">GitHub</a></li>
+
+    <li><a href="https://ku.bootcampcontent.com/ku-coding-boot-camp/KU-VIRT-FSF-PT-05-2022-U-LOLC" target="_blank">GitLab</a></li>
+
+    <li><a href="http://127.0.0.1:5501/index.html#">Contact Me Here</a></li>
+
+  </ul>
+</div>
+<div id="resume"></div>
+</main>
+
+<footer>Created by Mya Washington</footer>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

@@ -3,74 +3,71 @@
     padding: 0;
   }
   
-  html {
+  html body {
     scroll-behavior: smooth;
+    text-align: center;
   }
-  header {;
-    background-color: rgba(223, 168, 177, 0.916);
-    width:2000px;
-    height: 100px;
-     }
 
 
   body {
-    min-height: 900px;
-    line-height: 1;
-    font-family: sans-serif;
-    background-image: linear-gradient(rgb(238, 205, 222), rgba(206, 107, 122, 0.97));
+    display: block;
+    background-image: linear-gradient(rgb(238, 205, 222), rgba(176, 189, 180, 0.97));
   }
 
-  nav {
-  width: 70%;
-  margin: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  min-width: 500px;
-  display: flex;
-  justify-content: center;
-  }
-  
-  nav, nav ul, nav ul li a {
-   height: 50px;
-   line-height: 50px;
-  }
+nav {
+display: block;
 
-  nav, nav ul, nav ul li a:hover {
- color: black;
-
-  }
-
-  nav li {
-  float:left
+}
+  nav ul{
+    position: absolute;
+    text-align: right;
+    width:90%;
+    background-color: 879688(48, 65, 47);
+    font-family: "comfortaa",sans-serif;
+    font-size: 1.2em;
 }
 
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+
+
+}
+
+nav ul li {
+  display: inline-block;
+margin: 30px;}
+
 nav ul li a {
-  display:block;
-  padding-left: 30px;
-  padding-right: 30px;
-  color: white;
-  text-align: center;
-  position:relative;
-  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+
+
+nav:hover {
+  background-color: rgb(48, 65, 47);
+
+
 }
 
 .under-nav-content {
-background-color: rgb(32, 8, 27);
-height: 300px;
-min-width: none;
-position: relative;
-bottom: 50px
+  line-height: 1.6;
+  background: #879688;
+  min-height: 55vh;
+  padding-top: 45vh;
 }
  
 .under-nav-content:hover {
-background-color: rgb(65, 47, 63);
+background-color: rgb(48, 65, 47);
 }
 
-a:hover {
-  display: flex;
-
-
-}
 
    h1 {
     color: white;
@@ -92,29 +89,29 @@ a:hover {
     top: 70px;
   }
 
-  h3 {
-    display: block;
-    font-size: 2em;
-    position: relative;
-    bottom: 290px;
-    left: 30px;
-    font-weight: bold;
-    color: rgb(2, 0, 0);
+  .project {
+    text-decoration: none;
+    background-color: #c4c4c4;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid #ababab;
+    border-radius: 5px;
+    height: 220px;
+    width: 280px;
+    margin: 40px 100px;
+    padding-top: 10px;
+
   }
 
-  h3:hover{
-color: rgb(167, 94, 175);
-cursor: pointer;
-display: flex;
+  .project-img {
+    height: 180px;
+    border-bottom: 2px solid #ababab;
+    border-radius: 5px;
   }
 
   h4 {
-/* display: flex; */
-/* flex-wrap: wrap; */
 position: relative;
-/* left: 590px; */
-/* top:30px; */
-color: white;
+color: black;
 font-size: 40px;
 
   }
@@ -122,65 +119,46 @@ font-size: 40px;
  h5, h6 {
     font-size: 100%;
   }
-  .post-feed {
- width: auto;
- margin-right: 100px;
- height: 250px;
-display: flex;
-flex-wrap: wrap;
-  }
+ 
+ .post-card-content  {
+  display: block;
+  padding-top: 60px;
+  margin-top: -60px;
+  padding-bottom: 60px;
+  background-color: #dcdcdc;
+}
 
-
- .post-card-content li {
-  float: left;
-  padding: 15px;
-  position: relative;
-  bottom: 290px;
- }
- p {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  position: relative;
-  bottom: 70px;
-  right:100px;
-  color: white;
-
- }
- #image {
-  display: flex;
-  flex-wrap: wrap
- }
 
  .side-bar {
-  display: flex;
-  flex-wrap: wrap;
-background-color: rgb(210, 151, 155);
+ display: flex;
+ flex-wrap: wrap;
+background-color: rgb(226, 211, 218);
 width: 2000  px;
-height: 400px;
+height: 700px;
 float: right;
  }
 
 .side-bar-content {
-text-align: center;
-display: flex;
+/* text-align: center; */
+display: block;
 justify-content: center;
-width: 2000px;
+width: 500px;
 
 }
-p {
-
-display: flex;
-align-items: center;
-
+#contact {
+float: left;
+background-color: rgb(226, 211, 218);
+padding: 60px;
 }
+
 #contact li {
-position: relative;
-top: 1000px;
-right: 100px;
-/* display: inline; */
-font-size: 20px;
-margin-left:;
+  /* display: block; */
+  /* flex-wrap: wrap; */
+ background-color: rgb(226, 211, 218);
+ /* width: 500px; */
+ height: 500px;
+ float: left;
+ font-size: 20px;
 }
 
 
@@ -203,7 +181,7 @@ margin-left:;
     position: fixed;
     bottom: 0%;
     width: 2000px;
-    background-color: rgb(32, 8, 27);
+    background-color: black;
     color: #ffffff;
     text-align: center;
     font-size: 12px;
@@ -213,24 +191,12 @@ margin-left:;
 
   /* for mobile phones */
   @media screen and (max-width:320px){
-    .post-card-content {width: 100%;}
-    /* h1 { font-size: 45px;} */
-    nav { width: 20px; font-size: 5px; position: relative; right: 100px;}
-    .under-nav-content { width: 100%; height: 200px;}
-    h1 {font-size: 30px;}
-    .side-bar {width: 100%;}
-    .side-bar-content {width: 100%; position: relative; top: 100px;}
-    #about-me { position: relative; right: -60px; text-align: center; top: 0px; font-size: 30px; padding: 20px;}
-    #contact li {position: relative; float: left;}
+.post-card-content {display: flex; flex-wrap: wrap;
   }
-
-  /* for tablets */
-  @media screen and (max-width: 600px){
-    /* .nav ul li a {width: 50px; */
-    .under-nav-content { width: 100%;}
- }
+}
 
  /* for desktop */
  @media screen and (max-width:768px) {
-  .post-card-content { width: 100px;}
+  .post-card-content { display: flex; flex-wrap: wrap;}
+  .side-bar-content {width: 20%;}
  }
