@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
 <meta charset="UTF-8"/>
 <meta name="Viewport" content="width=device-width, initial-scale=1.0"/>
@@ -9,34 +10,59 @@
 
 <body>
 
-<header class="header"></header>
+<header></header>
 <nav>
 <ul>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Work</a></li>
-    <li><a href="#">Resume</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="#about me">About Me</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact">Contact</a></li>
 </ul>
 </nav>
 
 <main>
 
-<section>
+<section class="under-nav-content">
 <h1>Mya Washington</h1>
 <br>
 <h2>Web Developer</h2>
 </section>
 
-<br>
-<br>
-
-<section>
-    <h3> About Me</h3>
-    <p> </p>
+<!-- images that link to my projects -->
+<div id="wrap">
+<section class="post-feed">
+<!-- <div class="post-card"> -->
+</div>
+    <div class="post-card-content">
+      <h3 id="projects">Projects:</h3>
+      <ul>
+      <li><a href="#"><img src="sunset.jpg" id="image" alt="sunset" height="200px"></a>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed accumsan ac nibh eu laoreet. Suspendisse odio augue, dignissim vitae nulla sit amet, rutrum lobortis urna. </li>
+      <li><a href="#"><img src="sunset.jpg" id="image" alt="sunset" height="200px"></a>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed accumsan ac nibh eu laoreet. Suspendisse odio augue, dignissim vitae nulla sit amet, rutrum lobortis urna. </li>
+      <li><a href="#"><img src="sunset.jpg" id="image" alt="sunset" height="200px"></a>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed accumsan ac nibh eu laoreet. Suspendisse odio augue, dignissim vitae nulla sit amet, rutrum lobortis urna. </li>
+         </ul>
+    </div>
+ 
+  <!-- about me side bar -->
+  <section class="side-bar">
+    <div class="side-bar-content">
+      <h4 id="about me">About Me</h4>
+              <p>ipsum dolor sit amet, consectetur adipiscing elit.
+                 Sed accumsan ac nibh eu laoreet. Suspendisse odio augue, dignissim vitae nulla sit amet, rutrum lobortis urna. </p>
+            </div>
+        </section></p>
+    </div>
 </section>
-
-
-
-
+<div id="contact">
+  <ul>
+    <li id="resume"><a href="#">Linkedin Resume </a></li>
+    <li><a href="https://github.com/Myajewell" target="_blank">GitHub</a></li>
+    <li><a href="https://ku.bootcampcontent.com/ku-coding-boot-camp/KU-VIRT-FSF-PT-05-2022-U-LOLC" target="_blank">GitLab</a></li>
+    <li><A href="#">Contact Me Here</A></li>
+  </ul>
+</div>
 </main>
-<footer></footer>
+
+<footer>Created by Mya Washington</footer>
+
+</body>
+</html>

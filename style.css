@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  header {;
+    background-color: rgba(223, 168, 177, 0.916);
+    width:2000px;
+    height: 100px;
+     }
+
+
+  body {
+    min-height: 900px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-image: linear-gradient(rgb(238, 205, 222), rgba(206, 107, 122, 0.97));
+    
+  }
+
+  nav {
+  width: 70%;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 500px;
+  display: flex;
+  justify-content: center;
+  }
+  
+  nav, nav ul, nav ul li a {
+   height: 50px;
+   line-height: 50px;
+  }
+
+  nav, nav ul, nav ul li a:hover {
+ color: black;
+
+  }
+
+  nav li {
+  float:left
+}
+
+nav ul li a {
+  display:block;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  text-align: center;
+  position:relative;
+  bottom: 50px;
+}
+
+.under-nav-content {
+background-color: rgb(32, 8, 27);
+height: 300px;
+min-width: none;
+position: relative;
+bottom: 50px
+}
+ 
+.under-nav-content:hover {
+background-color: rgb(65, 47, 63);
+}
+
+a:hover {
+  display: flex;
+
+
+}
+
+   h1 {
+    color: white;
+    position: relative;
+    font-family:"josefin sans" ;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: .125em;
+    top: 50px;
+   }
+
+  h2 {
+    position: relative;
+    font-family:"josefin sans" ;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: .125em;
+    color: white;
+    top: 70px;
+  }
+
+  h3 {
+    display: block;
+    font-size: 2em;
+    position: relative;
+    bottom: 290px;
+    left: 30px;
+    font-weight: bold;
+    color: rgb(2, 0, 0);
+  }
+
+  h3:hover{
+color: rgb(167, 94, 175);
+cursor: pointer;
+display: flex;
+  }
+
+  h4 {
+display: flex;
+flex-wrap: wrap;
+position: relative;
+left: 590px;
+top:30px;
+color: white;
+font-size: 40px;
+  }
+  
+ h5, h6 {
+    font-size: 100%;
+  }
+  .post-feed {
+ width: auto;
+ margin-right: 100px;
+ height: 250px;
+display: flex;
+flex-wrap: wrap;
+  }
+
+
+ .post-card-content li {
+  float: left;
+  padding: 15px;
+  position: relative;
+  bottom: 290px;
+ }
+ p {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relative;
+  bottom: 70px;
+  right:100px;
+  color: white;
+
+ }
+ #image {
+  display: flex;
+  flex-wrap: wrap
+ }
+
+ .side-bar {
+  display: flex;
+  flex-wrap: wrap;
+background-color: rgb(210, 151, 155);
+width: 2000  px;
+height: 400px;
+float: right;
+ }
+
+.side-bar-content {
+text-align: center;
+display: flex;
+justify-content: center;
+width: 2000px;
+
+}
+p {
+
+display: flex;
+align-items: center;
+
+}
+#contact li {
+position: relative;
+top: 1000px;
+right: 1100px;
+/* display: inline; */
+font-size: 20px;
+}
+
+
+#resume {}
+  
+  input, select, option, optgroup, textarea, button,
+  pre, code {
+    font-size: 100%;
+    font-family: inherit;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+
+
+
+  footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    width: 2000px;
+    background-color: rgb(32, 8, 27);
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+
+  /* for mobile phones */
+  @media screen and (max-width:320px){
+    .post-card-content {width: 100%;}
+    h1 { font-size: 45px;}
+    nav { width: 20px; font-size: 8px; position: relative; right: 100px;}
+  
+  }
+
+  /* for tablets */
+  @media screen and (max-width: 600px){
+    header { width: 10px%;}
+    .nav ul li a 
+    .under-nav-content { width: 50px;}
+ }
+
+ /* for desktop */
+ @media screen and (max-width:768px) {
+  header {width: 100%;}
+ }
