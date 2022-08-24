@@ -48,13 +48,13 @@ nav ul li a {
   align-items: center;
   color: white;
 }
-
+/* free background image downloaded from unsplash.com */
 #home::before {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
-  background: url("./sunset.jpg") no-repeat center center/cover;
+  background: url("./refargotohp-pbynRSh63y0-unsplash.jpg") no-repeat center center/cover;
   height: 900px;
   width: 100%;
   z-index: -1;
@@ -64,5 +64,24 @@ nav ul li a {
 .main {
   display: flex;
   flex-direction: column;
+  /* border: 2px solid rgb(228, 225, 225); */
+  align-items: center;
+  position: absolute;
+  top: 30%;
+}
+
+.heading {
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.btn {
+  padding: 10px 35px;
+  background-color: transparent;
   border: 1px solid white;
+  color: white;
+  outline: none;
+  transition: .6s ease;
 }
