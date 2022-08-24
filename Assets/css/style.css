@@ -180,5 +180,14 @@ box-sizing: border-box;
   background-position: left bottom;
   color: rgb(61, 61, 63);
   border: none;
-  box-shadow: 0 0 20px rgb(218, 238, 236);
+  box-shadow: 0 0 20px rgb(107, 125, 123);
 }
+
+.box img {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  padding: 10px;
+}
+
+ /* Contact Section */ 
