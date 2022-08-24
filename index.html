@@ -3,18 +3,18 @@
 <head>
 <meta charset="UTF-8"/>
 <title>My Portfolio</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="./Assets/css/style.css"/>
+<link rel="stylesheet" media="screen" href="portfolio/tablet.css"/>
 </head>
 
 <body>
 <nav class="navbar">
 <ul>
-    <li><a href="#about-me">About Me</a></li>
+    <li><a href="#about">About Me</a></li>
 
     <li><a href="#Portfolio">Portfolio</a></li>
 
-    <li><a href="#resume">Resume</a></li>
+    <li><a href="#Services">Services</a></li>
 
     <li><a href="#contact">Contact</a></li>
 </ul>
@@ -43,7 +43,7 @@ Hire Me</button>
   </div>
 </section>
 
-<section id="portfolio">
+<section id="Portfolio">
   <h1 class="heading">PORTFOLIO</h1>
   <div class="gallery">
   <img src="./Assets/css/refargotohp-pbynRSh63y0-unsplash.jpg" alt="">
@@ -55,7 +55,7 @@ Hire Me</button>
 </div>
 </section>
 
-<section id="services">
+<section id="Services">
   <h1 class="heading">services</h1>
   <div class="row">
     <div class="box">
@@ -74,6 +74,16 @@ Hire Me</button>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quae laborum iusto, dolore accusantium soluta odio illo, explicabo beatae corporis ipsum aut illum, et sequi! Nulla blanditiis temporibus aliquid pariatur!</p>
     </div>
   </div>
+</section>
+
+<section id="contact">
+  <h1 class="heading">CONTACT</h1>
+  <form action="" class="form">
+    <input type="text" name="name" class="input" placeholder="Enter your name">
+    <input type="email" name="email" class="input" placeholder="Enter your email">
+    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message"></textarea>
+    <input type="submit" value="SEND" id="send">
+  </form>
 </section>
 
 <footer>Created by Mya Washington</footer>
