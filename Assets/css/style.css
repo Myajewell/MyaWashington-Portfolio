@@ -1,202 +1,68 @@
 * {
     margin: 0;
     padding: 0;
-  }
-  
-  html body {
-    scroll-behavior: smooth;
-    text-align: center;
+    box-sizing: border-box;
   }
 
-
-  body {
-    display: block;
-    background-image: linear-gradient(rgb(238, 205, 222), rgba(176, 189, 180, 0.97));
-  }
-
-nav {
-display: block;
-
+/* navbar */
+.navbar {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.5);
+position: sticky;
+top: 0;
 }
-  nav ul{
-    position: absolute;
-    text-align: right;
-    width:90%;
-    background-color: 879688(48, 65, 47);
-    font-family: "comfortaa",sans-serif;
-    font-size: 1.2em;
+  .navbar ul{
+   display: flex;
+   list-style: none;
+   margin: 20px 0px;
 }
 
-ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-
-
+.navbar ul li {
+font-family: century;
+font-size: 1.1rem;
+font-weight: bold;
 }
-
-nav ul li {
-  display: inline-block;
-margin: 30px;}
 
 nav ul li a {
-  display: flex;
-  justify-content: center;
+ text-decoration: none;
+ color: white;
+ padding: 8px 25px;
+ transition: all .5 ease;
+}
+
+.navbar ul li a:hover {
+  background-color: white;
   color: black;
+  box-shadow:0 0 10px white ;
 }
 
-
-
-nav:hover {
-  background-color: rgb(48, 65, 47);
-
-
+/* Home Section */
+#home {
+  display: flex; 
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 840px;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
-.under-nav-content {
-  line-height: 1.6;
-  background: #879688;
-  min-height: 55vh;
-  padding-top: 45vh;
-}
- 
-.under-nav-content:hover {
-background-color: rgb(48, 65, 47);
-}
-
-
-   h1 {
-    color: white;
-    position: relative;
-    font-family:"josefin sans" ;
-    font-size: 60px;
-    text-align: center;
-    letter-spacing: .125em;
-    top: -20px;
-   }
-
-  h2 {
-    position: relative;
-    font-family:"josefin sans" ;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: .125em;
-    color: white;
-    top: -50px;
-  }
-
-  .project {
-    text-decoration: none;
-    background-color: #c4c4c4;
-    display: inline-block;
-    overflow: hidden;
-    border: 2px solid #ababab;
-    border-radius: 5px;
-    height: 220px;
-    width: 280px;
-    margin: 40px 100px;
-    padding-top: 10px;
-
-  }
-
-  .project-img {
-    height: 180px;
-    border-bottom: 2px solid #ababab;
-    border-radius: 5px;
-  }
-
-  h4 {
-position: relative;
-color: black;
-font-size: 40px;
-
-  }
-  
- h5, h6 {
-    font-size: 100%;
-  }
- 
- .post-card-content  {
-  display: block;
-  padding-top: 60px;
-  margin-top: -60px;
-  padding-bottom: 60px;
-  background-color: #dcdcdc;
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("./sunset.jpg") no-repeat center center/cover;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+  opacity: .8;
 }
 
-
- .side-bar {
- display: flex;
- flex-wrap: wrap;
-background-color: rgb(226, 211, 218);
-width: 2000  px;
-height: 700px;
-float: right;
- }
-
-.side-bar-content {
-/* text-align: center; */
-display: block;
-justify-content: center;
-width: 500px;
-
+.main {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
 }
-#contact {
-float: left;
-background-color: rgb(226, 211, 218);
-padding: 60px;
-}
-
-#contact li {
-  /* display: block; */
-  /* flex-wrap: wrap; */
- background-color: rgb(226, 211, 218);
- /* width: 500px; */
- height: 500px;
- float: left;
- font-size: 20px;
-}
-
-
-#resume {}
-  
-  input, select, option, optgroup, textarea, button,
-  pre, code {
-    font-size: 100%;
-    font-family: inherit;
-  }
-  
-  ol, ul {
-    list-style: none;
-  }
-
-
-
-  footer {
-    text-align: center;
-    position: fixed;
-    bottom: 0%;
-    width: 2000px;
-    background-color: black;
-    color: #ffffff;
-    text-align: center;
-    font-size: 12px;
-    padding: 15px;
-  }
-
-
-  /* for mobile phones */
-  @media screen and (max-width:320px){
-.post-card-content {display: flex; flex-wrap: wrap;
-  }
-}
-
- /* for desktop */
- @media screen and (max-width:768px) {
-  .post-card-content { display: flex; flex-wrap: wrap;}
-  .side-bar-content {width: 20%;}
- }
