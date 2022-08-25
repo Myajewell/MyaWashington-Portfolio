@@ -18,4 +18,8 @@
 }
 
 /* Portfolio */
-
+.gallery img {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
