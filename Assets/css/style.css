@@ -10,7 +10,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-color: rgba(0, 0, 0, 0.5);
-position: sticky;
+position: static;
 top: 0;
 }
   .navbar ul{
@@ -20,7 +20,8 @@ top: 0;
 }
 
 .navbar ul li {
-font-family: century;
+font-family: serif;
+font-weight: 300;
 font-size: 1.1rem;
 font-weight: bold;
 }
@@ -54,11 +55,11 @@ nav ul li a {
   position: absolute;
   top: 0;
   right: 0;
-  background: url("./refargotohp-pbynRSh63y0-unsplash.jpg") no-repeat center center/cover;
+  background: url("./maxim-berg-EirX0QN4-Sk-unsplash.jpg") no-repeat center center/cover;
   height: 900px;
   width: 100%;
   z-index: -1;
-  opacity: .8;
+  opacity: .9;
 }
 
 .main {
@@ -71,7 +72,8 @@ nav ul li a {
 }
 
 .heading {
-  font-family: century;
+  font-family: serif;
+  font-weight: 300;
   font-size: 3rem;
   text-align: center;
   margin: 40px 0px;
@@ -171,16 +173,17 @@ box-sizing: border-box;
   text-align: justify;
   padding: 10px;
   border-radius: 15px;
-  background: linear-gradient(to top, rgb(218, 238, 236) 50%, white 50%);
+  background: linear-gradient(to top, rgb(201, 242, 238) 50%, white 50%);
   background-size: 100% 200%;
   transition: all .8s;
 }
 
 .box:hover {
   background-position: left bottom;
-  color: rgb(61, 61, 63);
+  font-weight: 300;
+  color: rgb(75, 75, 77);
   border: none;
-  box-shadow: 0 0 20px rgb(107, 125, 123);
+  box-shadow: 0 0 20px rgb(58, 60, 60);
 }
 
 .box img {
